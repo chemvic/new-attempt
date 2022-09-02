@@ -1,5 +1,19 @@
-body {
-    background-color: #black;
-    color: #232323;
-
+/* h1{
+    color: aqua;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+}
+menu{
+    display: flex;
+}
+div{
+    display: flex;
 }
