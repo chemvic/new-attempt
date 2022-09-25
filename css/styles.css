@@ -17,3 +17,16 @@ menu{
 div{
     display: flex;
 }
+
+/* игра с текстом */
+.post-title {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
