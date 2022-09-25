@@ -1,7 +1,7 @@
 /* h1{
     color: aqua;
 } */
-*{
+*{font-family: 'CyrillicGoth', arial;
     margin: 0;
     padding: 0;
 }
@@ -29,4 +29,28 @@ div{
 
 .align-justify {
     text-align: justify;
+}
+.post-text {
+   
+    font-size:  20px;
+    font-weight: 400;
+    font-style:initial;
+        line-height: 1.5;
+        letter-spacing: 1px;
+}
+.title {
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+    font-style: oblique;
+}
+pre {
+font-family: 'Bungee Spice', cursive;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+pre::first-letter {
+font-family: 'Bungee Spice', cursive;
+    font-size: 32px;
+    color: #f44336;
 }
