@@ -1,6 +1,11 @@
 /* h1{
     color: aqua;
 } */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 *{
     margin: 0;
     padding: 0;
@@ -53,4 +58,63 @@ pre::first-letter {
 font-family: 'Bungee Spice', cursive;
     font-size: 32px;
     color: #f44336;
+}
+
+
+/* блочная модель */
+
+.outer-box {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    /* margin: 50px; */
+}
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 25px;
+    background-color: palevioletred;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 5px solid tomato;
+    margin: 50px;
+}
+.box {
+    /* Установит стили верхней рамки */
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: blue;
+
+    /* Установит стили правой рамки */
+    border-right-width: 5px;
+    border-right-style: dotted;
+    border-right-color: black;
+
+    /* Установит стили нинжней рамки */
+    border-bottom-width: 7px;
+    border-bottom-style: dashed;
+    border-bottom-color: palevioletred;
+
+    /* Установит стили левой рамки */
+    border-left-width: 9px;
+    border-left-style: dashed;
+    border-left-color: green;
+}
+.link {
+    display: inline-block;
+    padding: 16px 32px;
+
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
