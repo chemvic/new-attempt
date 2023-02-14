@@ -10,6 +10,11 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
 header{
     display: flex;
     justify-content: space-between;
